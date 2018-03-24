@@ -1,0 +1,14 @@
+Create DB Instance in AWS
+1. Created account
+2. Selected Amazon RDS.
+3. Created a DB Instance for MS SQL Server
+4. Created Master User and password for DB
+5. From SQL Server Management Studio (Client) in Local System 
+6.Server Type - Database Engine
+7. ServerName: Copy the EndPoint Adrdress of DB Instance created earlier from AWS RDS and the PORT NUMBER
+
+Example: End Point: asdg3245sdfr
+         Port: 1433
+Actual ServerName = asdg3245sdfr,1433
+8. Login - Master User for DB
+9. Password: Password for Master User.		 
